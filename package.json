@@ -13,7 +13,7 @@
     "build:sass": "sass --style=compressed --no-source-map sass:css",
     "build:autoprefixer": "postcss css/*.css --use autoprefixer -d css",
     "build": "npm-run-all build:* test",
-    "build-dev": "npm-run-all build-dev:sass build: auprefixer",
+    "build-dev": "npm-run-all build-dev:sass build:autoprefixer",
     "build-dev:sass": "sass --style=expanded --source-map sass:css",
     "watch:browsersync": "browser-sync start --server --files\"css/*.css\" \"*.html\"",
     "watch:sassprefixer": "onchange sass/*.scss -- npm run build-dev",
