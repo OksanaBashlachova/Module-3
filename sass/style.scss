@@ -1,4 +1,4 @@
-.navigation ul li {
+.navigation ul {
    list-style-type: none;
 }
 
@@ -7,23 +7,20 @@
 .navigation {
    padding: 12px 0;
    text-align: left;
-}
-
-.navigation ul {
+ul {
    padding: 0;
    margin: 0;
    list-style-type: none;
-}
-
-.navigation li {
+li {
    display: inline-block;
    margin: 0 36px 0 0;
    position: relative;
-}
-
-.navigation a {
+a {
    text-decoration: none;
-   color: #ffffff;
+   color: red;
+}
+}
+}
 }
 
 header {
@@ -45,6 +42,7 @@ header {
    font-weight: 700;
    line-height: 1.2;
    margin: 10px;
+   text-align: center;
 }
 .page-subtitle {
    margin: 300px 0 0 0;
@@ -73,9 +71,13 @@ header {
    border-color: gold;
    color: #ffffff;
    background-color: gold;
-   margin: 10px 30px 10px 150px;
+   margin: 0 auto;
+   display: block;
    }
-.col-5 {
+   .title-icone {
+   text-align: center;
+   }
+.brand {
    color: rgba(0, 47, 255, 0.966);
    text-align: center;
    font-size: 40px;
@@ -103,16 +105,15 @@ span {
    border: solid;
    border-radius: 50%;
    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: blue;
-    font-weight: 900;
-    display: var(--fa-display,inline-block);
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
+   height: 60px;
+   line-height: 60px;
+   color: blue;
+   font-weight: 900;
+   font-style: normal;
+   font-size: 30px;
+   text-align: center;
 }
-.col-lg-4 {
+.card-type {
    text-align: center;
 }
 .card img {
@@ -132,7 +133,7 @@ span {
 .card-body {
    background-color: white;
 }
-.col-lg-8 a {
+.foot-block a {
    font-size: 30px;
    background:grey;
    width: 40px;
@@ -145,21 +146,18 @@ span {
    cursor: pointer;
    margin-left: 5px;
 }
-.col-lg-8 {
-   padding: 0 0 48px 0;
-}
-.col-lg-8 ul {
-   display: flex;
+.foot-block ul {
+   display: inline-flex;
    flex-wrap: wrap;
    justify-content: center;
-   padding: 30px 0 0 0;
+   padding: 30px 0 0 30px;
    margin: 0;
    list-style-type: none;
 }
-.col-lg-8 li {
+.foot-block li {
     flex: 0 0 0;
 }
 .foot-zone {
-   padding: 40px;
+   padding: 40px 0 0 40px;
    color: grey
 }
